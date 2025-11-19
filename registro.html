@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="./index.html">Inicio</a>
+      <a href="/Contacto.html">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <fieldset>
+      <legend>Formulario de registro</legend>
+      <form action="./tabla.html" method="post">
+        <div>
+          <label for="Nombre">Nombre 
+            <input type="text" id="Nombre" required>
+          </label>
+        </div>
+        <div>
+          <label for="Apellidos">Apellidos 
+            <input type="text" id="Apellidos" required>
+          </label>
+        </div>
+        <div>
+          <label for="Teléfono">Teléfono
+            <input type="number" id="Teléfono" min="1" max="10" required>
+          </label>
+        </div>
+        <div>
+          <label for="Dirección">Dirección 
+            <input type="text" id="Dirección" required>
+          </label>
+        </div>
+        <div>
+          <label for="Ciudad">Ciudad
+            <select id="Ciudad" required>
+              <option value=""></option>
+              <option value="">Bucaramanga</option>
+              <option value="">Floridablanca</option>
+              <option value="">Girón</option>
+              <option value="">Piedecuesta</option>
+            </select>
+          </label>
+        </div>
+        <div>
+          <label for="">Gustos:
+            <label for="Programar">Programar
+              <input type="checkbox" id="Programar">
+            </label>
+            <label for="Estudiar">Estudiar
+              <input type="checkbox" id="Estudiar">
+            </label>
+            <label for="Música">Música
+              <input type="checkbox" id="Música">
+            </label>
+          </label>
+        </div>
+        <div>
+          <label for="Hombre">Hombre
+            <input type="radio" id="Hombre" name="Género">
+          </label>
+          <label for="Mujer">Mujer
+            <input type="radio" id="Mujer" name="Género">
+          </label>
+          <label for="Otro">Otro
+            <input type="radio" id="Otro" name="Género">
+          </label>
+        </div>
+        <div>
+          <button type="submit">Enviar</button>
+        </div>
+      </form>
+    </fieldset>
+  </main>
+</body>
+</html>
